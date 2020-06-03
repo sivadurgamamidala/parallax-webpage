@@ -1,0 +1,119 @@
+body, html{
+    margin: 0px;
+    height: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6em;
+    font-family: "Lato",sans-serif;
+    color: #666;
+}
+.img1,.img2,.img3{
+    position: relative;
+    opacity: 0.6;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.img1{
+    background-image: url(images/image1.jpg);
+    background-size: 100% 100%;
+    min-height: 100%;
+}
+.img2{
+    background-image: url(images/image2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 400px;
+}
+.img3{
+    background-image: url(images/1280x720-data-out-19-4855731-free-sniper-wallpapers.jpg);
+    max-width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 400px;
+}
+.section{
+    text-align: justify;
+    text-align-last: center;
+    padding: 50px 80px;
+    font-size: 19px;
+}
+.section-light{
+    background-color: #f4f4f4;
+    color:#666;
+}
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
+.section1{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #fef8e0;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.section1 .border{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+.section1 .border.trans{
+    background-color: transparent;
+
+}
+a{
+    text-decoration: none !important;
+    font-size: 27px;
+    color: #fff !important;
+    text-transform: uppercase;
+    width: 100%;
+    
+}
+@media(max-width:600px){
+    .img1, .img2, .img3{
+        background-attachment: scroll;
+
+    }
+    .img2{
+        margin-top: -39px;
+    }
+    .img3{
+        margin-top: -65px;
+    }
+    .sec{
+        margin-top: -39px;
+    }
+    .sec1{
+        margin-top: -70px;
+    }
+    
+    .section1{
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: #fef8e0;
+        font-size: 17px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+    .section{
+        text-align: justify;
+        text-align-last: center;
+        padding: 10px 20px;
+        font-size: 11px;
+    }
+    a{
+        text-decoration: none !important;
+        font-size: 17px;
+        color: #fff !important;
+        text-transform: uppercase;
+        width: 100%;
+        
+    }
+}
